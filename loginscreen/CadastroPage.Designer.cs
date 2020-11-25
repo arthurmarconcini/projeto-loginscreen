@@ -67,9 +67,9 @@ namespace loginscreen
             this.lblCadNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCadNome.Location = new System.Drawing.Point(71, 56);
             this.lblCadNome.Name = "lblCadNome";
-            this.lblCadNome.Size = new System.Drawing.Size(72, 24);
+            this.lblCadNome.Size = new System.Drawing.Size(84, 24);
             this.lblCadNome.TabIndex = 2;
-            this.lblCadNome.Text = "Nome: ";
+            this.lblCadNome.Text = "Usuário: ";
             this.lblCadNome.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblCadSenha
@@ -105,6 +105,7 @@ namespace loginscreen
             this.txtCadSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCadSenha.Location = new System.Drawing.Point(149, 101);
             this.txtCadSenha.Name = "txtCadSenha";
+            this.txtCadSenha.PasswordChar = '*';
             this.txtCadSenha.Size = new System.Drawing.Size(255, 29);
             this.txtCadSenha.TabIndex = 6;
             // 
